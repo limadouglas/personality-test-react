@@ -46,15 +46,21 @@ const Intro = ({ title, _onStartClick }) => {
         <h1>{title}</h1>
         {/* TODO: WILL CHANGE THIS THING DOWN HERE */}
         <ul className="list-group">
-          <li className="list-group-item">Consits of 40 questions</li>
-          <li className="list-group-item">Answer honestly</li>
+          <li className="list-group-item">Você está pronta(o) para conhecer seu perfil comportamental predominante?</li>
         </ul>
         <StartBtn onClick={_onStartClick}>
-          <span>Let's Do This!</span>
+          <span>COMEÇAR O TESTE</span>
           <div className="icon">
             <i className="fa fa-arrow-right" />
           </div>
         </StartBtn>
+        <ul className="list-group">
+          <li className="list-group-item">
+            Dicas<br />1. Não há resultado bom ou ruim, por isso, seja sincera(o).
+            <br/>2. Não pense muito, a primeira resposta geralmente será a mais correta.
+            <br />3. Responda pensando em quem você é e não em quem gostaria de ser.
+          </li>
+        </ul>
       </IntroCard>
     </Wrapper>
   )

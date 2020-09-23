@@ -6,9 +6,8 @@ const StartBtn = styled.div`
   width: 12em;
   height: 3.5em;
   color: #fff;
-  position: absolute;
+  position: relative;
   line-height: 3.5em;
-  bottom: 2em;
   left: 0;
   right: 0;
   margin: auto;

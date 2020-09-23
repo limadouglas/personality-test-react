@@ -4,96 +4,118 @@
 var quizQuestions = [
   // question #1
   {
-    question: 'I am task oriented in order to achieve certain goals.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
         type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: 'AVENTUREIRO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'SOCIÁVEL'
       },
       {
         type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "CONTROLADO"
+      },
+      {
+        type: 'J,Brown,D,No',
+        content: "ATENCIOSO"
       }
     ]
   },
   // question #2
   {
-    question: 'I get bored easily when disscussing abstract concepts.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
         type: 'N,Green,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'COMPETITIVO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'CONVINCENTE'
       },
       {
         type: 'N,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "SUBMISSO"
+      },
+      {
+        type: 'N,Green,C,No',
+        content: "DOADOR"
       }
     ]
   },
   // question #3
   {
-    question: 'I like to try things out myself.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
         type: 'S,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'HABILIDOSO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ESTIMULANTE'
       },
       {
         type: 'S,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "RESERVADO"
+      },
+      {
+        type: 'S,Red,A,No',
+        content: "RESPEITOSO"
       }
     ]
   },
   // question #4
+  //			
+
   {
-    question: "I like to know where I'm going before I leave the house.",
+    question: "",
     answers: [
       {
         // briggs, color, letter
         type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: 'AUTOSUFICIENTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ESPIRITUOSO'
       },
       {
         type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "SENSÍVEL"
+      },
+      {
+        type: 'J,Brown,D,No',
+        content: "SATISFEITO"
       }
     ]
   },
   // question #5
-  {
-    question: 'I believe there is a logical explanation for everything.',
+   {
+    question: '',
     answers: [
       {
         // briggs, color, letter
         type: 'T,Brown,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'POSITIVO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'CHARMOSO'
       },
       {
         type: 'T,Brown,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "PACIENTE"
+      },
+      {
+        type: 'T,Brown,C,No',
+        content: "PLANEJADOR"
       }
     ]
   },
@@ -104,72 +126,91 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'I,Green,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'SEGURO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ESPONÂNEO'
       },
       {
         type: 'I,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "TÍMIDO"
+      },
+      {
+        type: 'I,Green,C,No',
+        content: "ORGANIZADO"
       }
     ]
   },
   // question #7
+
   {
     question: 'I like to share my ideas with others.',
     answers: [
       {
         // briggs, color, letter
         type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        content: 'FRANCO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'OTIMISTA'
       },
       {
         type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "SERVIÇAL"
+      },
+      {
+        type: 'E,Blue,B,No',
+        content: "ORDEIRO"
       }
     ]
   },
-  // question #8
+  // question #8	
+
   {
-    question: 'I enjoy using social media.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
         type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        content: 'VIGOROSO'
       },
       {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
+        type: '',
+        content: 'ENGRAÇADO'
       },
       {
         type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "AMIGÁVEL"
+      },
+      {
+        type: 'E,Blue,B,No',
+        content: "FIEL"
       }
     ]
   },
   // question #9
+
   {
     question: 'I always express concern for others when making decisions.',
     answers: [
       {
         // briggs, color, letter
         type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        content: 'AUDACIOSO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ENCANTADOR'
       },
       {
         type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "DIPLOMÁTICO"
+      },
+      {
+        type: 'F,Blue,B,No',
+        content: "MINUCIOSO"
       }
     ]
   },
@@ -180,53 +221,67 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'CONFIANTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ALEGRE'
       },
       {
         type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "PREVISÍVEL"
+      },
+      {
+        type: 'P,Red,A,No',
+        content: "CULTO"
       }
     ]
   },
-  // question #11
+  // question #11			
+
   {
     question: 'I can easily adjust to a change in decision.',
     answers: [
       {
         // briggs, color, letter
         type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'INDEPENDENTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'INSPIRADO'
       },
       {
         type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "INOFENSIVO"
+      },
+      {
+        type: 'P,Red,A,No',
+        content: "IDEALISTA"
       }
     ]
   },
-  // question #12
+  // question #12		
+
   {
     question: 'I solve problems by working through facts until I understand the problem.',
     answers: [
       {
         // briggs, color, letter
         type: 'S,Brown,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'DECIDIDO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'DEMONSTRATIVO'
       },
       {
         type: 'S,Brown,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "IRÔNICO"
+      },
+      {
+        type: 'S,Brown,C,No',
+        content: "PROFUNDO"
       }
     ]
   },
@@ -237,110 +292,140 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'T,Green,C',
-        content: 'YEP! THAT IS ME!'
+        content: 'ATIVO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'DESEMBARAÇADO'
       },
       {
         type: 'T,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "MEDIADOR"
+      },
+      {
+        type: 'T,Green,C,No',
+        content: "MUSICAL"
       }
     ]
   },
   // question #14
   {
-    question: 'I make decisions with my heart.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
         type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        content: 'FIRME'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'CONVERSADOR'
       },
       {
         type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "TOLERANTE"
+      },
+      {
+        type: 'F,Blue,B,No',
+        content: "PENSATIVO"
       }
     ]
   },
   // question #15
+  //			
+
   {
     question: 'I learn best by seeing step by step instructions.',
     answers: [
       {
         // briggs, color, letter
         type: 'S,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        content: 'LIDER'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'VIVO'
       },
       {
         type: 'S,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "OUVINTE"
+      },
+      {
+        type: 'S,Brown,D,No',
+        content: "LEAL"
       }
     ]
   },
   // question #16
+
   {
     question: 'I sometimes move onto another task before completing my current one.',
     answers: [
       {
         // briggs, color, letter
         type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'CHEFE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ATRAENTE'
       },
       {
         type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "CONTENTE"
+      },
+      {
+        type: 'P,Red,A,No',
+        content: "DETALHISTA"
       }
     ]
   },
   // question #17
+  //			
+
   {
     question: 'I prefer a flexible and spontaneous way of life.',
     answers: [
       {
         // briggs, color, letter
         type: 'P,Red,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'PRODUTIVO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'POPULAR'
       },
       {
         type: 'P,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "AGRADÁVEL"
+      },
+      {
+        type: 'P,Red,A,No',
+        content: "PERFECCIONISTA"
       }
     ]
   },
   // question #18
+
   {
     question: 'I like to keep my options open when making decisions.',
     answers: [
       {
         // briggs, color, letter
         type: 'P,Green,D',
-        content: 'YEP! THAT IS ME!'
+        content: 'VALENTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'VIVAZ'
       },
       {
         type: 'P,Green,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "EQUILIBRADO"
+      },
+      {
+        type: 'P,Green,D,No',
+        content: "COMPORTADO"
       }
     ]
   },
@@ -351,15 +436,19 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        content: 'AUTORITÁRIO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'METIDO'
       },
       {
         type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "TRANQUILO"
+      },
+      {
+        type: 'E,Blue,B,No',
+        content: "ACANHADO"
       }
     ]
   },
@@ -370,15 +459,19 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'E,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        content: 'INSENSÍVEL'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'INDISCIPLINADO'
       },
       {
         type: 'E,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "DESINTERESSADO"
+      },
+      {
+        type: 'E,Blue,B,No',
+        content: "RANCOROSO"
       }
     ]
   },
@@ -389,15 +482,19 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'S,Brown,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'INFLEXÍVEL'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'REPETITIVO'
       },
       {
         type: 'S,Brown,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "RELUTANTE"
+      },
+      {
+        type: 'S,Brown,A,No',
+        content: "RESSENTIDO"
       }
     ]
   },
@@ -408,360 +505,441 @@ var quizQuestions = [
       {
         // briggs, color, letter
         type: 'S,Brown,A',
-        content: 'YEP! THAT IS ME!'
+        content: 'MANDÃO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ESQUECIDO'
       },
       {
         type: 'S,Brown,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        content: "MEDROSO"
+      },
+      {
+        type: 'S,Brown,A,No',
+        content: "COMPLICADO"
       }
     ]
   },
   // question #23
+  //			
+
   {
-    question: 'I tend to work alone.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'I,Green,D',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'IMPACIENTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'INOPORTUNO'
       },
       {
-        type: 'I,Green,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "INDECISO"
+      },
+      {
+        type: '',
+        content: "INSEGURO"
       }
     ]
   },
   // question #24
   {
-    question: "I don't like going to parties.",
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'I,Green,C',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'FRIO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'IMPREVISÍVEL'
       },
       {
-        type: 'I,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "DESLIGADO"
+      },
+      {
+        type: '',
+        content: "IMPOPULAR"
       }
     ]
   },
   // question #25
   {
-    question: 'I am in tune with my own emotions and let them guide me in life.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'CABEÇA DURA'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'CASUAL'
       },
       {
-        type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "EXITANTE"
+      },
+      {
+        type: '',
+        content: "INSATISFEITO"
       }
     ]
   },
-  // question #26
+  // question #26 			
   {
-    question: 'I rely on my intution and experience more than facts.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'N,Red,A',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'ORGULHOSO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'PERMISSIVO'
       },
       {
-        type: 'N,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "SIMPLES"
+      },
+      {
+        type: '',
+        content: "CAUTELOSO"
       }
     ]
   },
-  // question #27
+  // question #27 			
   {
-    question: 'I like to think things through.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'T,Green,D',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'DISCUTIDOR'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ESQUENTADO'
       },
       {
-        type: 'T,Green,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "INCERTO"
+      },
+      {
+        type: '',
+        content: "ALIENADO"
       }
     ]
   },
-  // question #28
+  // question #28 			
   {
-    question: 'I am a visual learner.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Red,A',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'OUSADO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'INGÊNUO'
       },
       {
-        type: 'S,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "INDIFERENTE"
+      },
+      {
+        type: '',
+        content: "NEGATIVO"
       }
     ]
   },
-  // question #29
+  // question #29 			
   {
-    question: 'I think carefully before I make decisions.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'TRABALHADOR'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'EGOÍSTA'
       },
       {
-        type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "PREOCUPADO"
+      },
+      {
+        type: '',
+        content: "RETRAIDO"
       }
     ]
   },
-  // question #30
+  // question #30 			
   {
-    question: 'I feel uneasy if my actions disrupt harmony in my social circle.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'INDELICADO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'TAGARELA'
       },
       {
-        type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "TÍMIDO"
+      },
+      {
+        type: '',
+        content: "SENSÍVEL DEMAIS"
       }
     ]
   },
-  // question #31
+  // question #31 			
+
   {
-    question: 'I put my personal opinions aside in pursuit of fairness and justice.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'T,Brown,C',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'MANDÃO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'DESORGANIZADO'
       },
       {
-        type: 'T,Brown,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "CONFUSO"
+      },
+      {
+        type: '',
+        content: "DEPRIMIDO"
       }
     ]
   },
-  // question #32
+  // question #32 			
   {
-    question: 'I tend to sit at the back or corner of the room.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'I,Green,C',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'INTOLERANTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'INCOSTANTE'
       },
       {
-        type: 'I,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "APÁTICO"
+      },
+      {
+        type: '',
+        content: "INTROVERTIDO"
       }
     ]
   },
-  // question #33
+  // question #33 			
   {
-    question: 'I like being the centre of attention.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Red,B',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'MANIPULADOR'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'DESORDENADO'
       },
       {
-        type: 'E,Red,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "RESMUNGÃO"
+      },
+      {
+        type: '',
+        content: "TRISTE"
       }
     ]
   },
-  // question #34
+  // question #34 		 
+
   {
-    question: 'I solve problems by leaping between different ideas and possibilities.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'N,Green,C',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'OBSTINADO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'CONVENCIDO'
       },
       {
-        type: 'N,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "LENTO"
+      },
+      {
+        type: '',
+        content: "CÉTICO(NÃO ACREDITAR)"
       }
     ]
   },
-  // question #35
+  // question #35 			
   {
-    question: 'I like to complete my work before playing.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'J,Red,D',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'TIRÂNICO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'BARULHENTO'
       },
       {
-        type: 'J,Red,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "PREGUIÇOSO"
+      },
+      {
+        type: '',
+        content: "SOLITÁRIO"
+      }
+    ]
+  }, 
+  // question #36 			
+  {
+    question: "",
+    answers: [
+      {
+        // briggs, color, letter
+        type: '',
+        content: 'IRRITÁVEL'
+      },
+      {
+        type: ' ',
+        content: 'DISTRAÍDO'
+      },
+      {
+        type: '',
+        content: "VAGAROSO"
+      },
+      {
+        type: '',
+        content: "DESCONFIADO"
       }
     ]
   },
-  // question #36
+  // question #37 			
+
   {
-    question: "I don't let other people influence my thoughts or actions.",
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'T,Red,A',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'IMPRUDENTE'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'AGITADO'
       },
       {
-        type: 'T,Red,A,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "RELUTANTE"
+      },
+      {
+        type: '',
+        content: "VINGATIVO"
       }
     ]
   },
-  // question #37
+  // question #38 			
   {
-    question: 'I use my sense of smell to help remember memories.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'N,Blue,D',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'ASTUTO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'INSTÁVEL'
       },
       {
-        type: 'N,Blue,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "ACOMODADO"
+      },
+      {
+        type: '',
+        content: "CRÍTICO"
       }
     ]
   },
-  // question #38
+  // question #39 			
   {
-    question: 'I make decisions based on my emotions.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'F,Blue,B',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'AVENTUREIRO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'ANIMADO'
       },
       {
-        type: 'F,Blue,B,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "ADAPTÁVEL"
+      },
+      {
+        type: '',
+        content: "ANALÍTICO"
       }
     ]
   },
-  // question #39
+  // question #40 			
   {
-    question: 'I need time alone to recharge.',
+    question: "",
     answers: [
       {
         // briggs, color, letter
-        type: 'I,Green,C',
-        content: 'YEP! THAT IS ME!'
+        type: '',
+        content: 'PERSUASIVO'
       },
       {
         type: ' ',
-        content: 'I HAVE NO IDEA!'
+        content: 'BRINCALHÃO'
       },
       {
-        type: 'I,Green,C,No',
-        content: "NAH, THAT CAN'T BE ME!"
+        type: '',
+        content: "SERENO"
+      },
+      {
+        type: '',
+        content: "PERSISTENTE"
       }
     ]
   },
-  // question #40
-  {
-    question: 'I like to keep my room organized and clean.',
-    answers: [
-      {
-        // briggs, color, letter
-        type: 'J,Brown,D',
-        content: 'YEP! THAT IS ME!'
-      },
-      {
-        type: ' ',
-        content: 'I HAVE NO IDEA!'
-      },
-      {
-        type: 'J,Brown,D,No',
-        content: "NAH, THAT CAN'T BE ME!"
-      }
-    ]
-  }
 ]
 
 export default quizQuestions

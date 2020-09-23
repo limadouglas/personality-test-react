@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   renderIntro() {
-    return <Intro _onStartClick={this._onStartClick} title="Welcome To Personality Test" />
+    return <Intro _onStartClick={this._onStartClick} title="Teste Comportamental" />
   }
 
   renderQuestion() {

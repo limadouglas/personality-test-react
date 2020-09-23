@@ -31,7 +31,7 @@ const QuestionCount = props => {
       <div className="row">
         <div className="col">
           <div className="questionCount">
-            Question <span>{props.counter}</span> of <span>{props.total}</span>
+            Pergunta <span>{props.counter}</span> de <span>{props.total}</span>
           </div>
         </div>
       </div>
