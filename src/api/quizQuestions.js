@@ -1,6 +1,8 @@
 // briggs: EI, SN, TF, JP
 // color: brown, green, blue, red
 // letter: a, b, c, d
+// type: (D)OMINÂNCIA, 	(I)NFLUÊNCIA,	(E)STABILIDADE,	(C)AUTELA
+
 var quizQuestions = [
   // question #1
   {
@@ -8,19 +10,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'J,Brown,D',
+        type: 'D',
         content: 'AVENTUREIRO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'SOCIÁVEL'
       },
       {
-        type: 'J,Brown,D,No',
+        type: 'E',
         content: "CONTROLADO"
       },
       {
-        type: 'J,Brown,D,No',
+        type: 'C',
         content: "ATENCIOSO"
       }
     ]
@@ -31,19 +33,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'N,Green,C',
+        type: 'D',
         content: 'COMPETITIVO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'CONVINCENTE'
       },
       {
-        type: 'N,Green,C,No',
+        type: 'E',
         content: "SUBMISSO"
       },
       {
-        type: 'N,Green,C,No',
+        type: 'C',
         content: "DOADOR"
       }
     ]
@@ -54,19 +56,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Red,A',
+        type: 'D',
         content: 'HABILIDOSO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ESTIMULANTE'
       },
       {
-        type: 'S,Red,A,No',
+        type: 'E',
         content: "RESERVADO"
       },
       {
-        type: 'S,Red,A,No',
+        type: 'C',
         content: "RESPEITOSO"
       }
     ]
@@ -79,19 +81,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'J,Brown,D',
+        type: 'D',
         content: 'AUTOSUFICIENTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ESPIRITUOSO'
       },
       {
-        type: 'J,Brown,D,No',
+        type: 'E',
         content: "SENSÍVEL"
       },
       {
-        type: 'J,Brown,D,No',
+        type: 'C',
         content: "SATISFEITO"
       }
     ]
@@ -102,19 +104,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'T,Brown,C',
+        type: 'D',
         content: 'POSITIVO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'CHARMOSO'
       },
       {
-        type: 'T,Brown,C,No',
+        type: 'E',
         content: "PACIENTE"
       },
       {
-        type: 'T,Brown,C,No',
+        type: 'C',
         content: "PLANEJADOR"
       }
     ]
@@ -125,19 +127,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'I,Green,C',
+        type: 'D',
         content: 'SEGURO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ESPONÂNEO'
       },
       {
-        type: 'I,Green,C,No',
+        type: 'E',
         content: "TÍMIDO"
       },
       {
-        type: 'I,Green,C,No',
+        type: 'C',
         content: "ORGANIZADO"
       }
     ]
@@ -149,19 +151,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Blue,B',
+        type: 'D',
         content: 'FRANCO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'OTIMISTA'
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'E',
         content: "SERVIÇAL"
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'C',
         content: "ORDEIRO"
       }
     ]
@@ -173,19 +175,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Blue,B',
+        type: 'D',
         content: 'VIGOROSO'
       },
       {
-        type: '',
+        type: 'I',
         content: 'ENGRAÇADO'
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'E',
         content: "AMIGÁVEL"
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'C',
         content: "FIEL"
       }
     ]
@@ -197,42 +199,42 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'F,Blue,B',
+        type: 'D',
         content: 'AUDACIOSO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ENCANTADOR'
       },
       {
-        type: 'F,Blue,B,No',
+        type: 'E',
         content: "DIPLOMÁTICO"
       },
       {
-        type: 'F,Blue,B,No',
+        type: 'C',
         content: "MINUCIOSO"
       }
     ]
   },
   // question #10
   {
-    question: 'I like to try new things.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Red,A',
+        type: 'D',
         content: 'CONFIANTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ALEGRE'
       },
       {
-        type: 'P,Red,A,No',
+        type: 'E',
         content: "PREVISÍVEL"
       },
       {
-        type: 'P,Red,A,No',
+        type: 'C',
         content: "CULTO"
       }
     ]
@@ -240,23 +242,23 @@ var quizQuestions = [
   // question #11			
 
   {
-    question: 'I can easily adjust to a change in decision.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Red,A',
+        type: 'D',
         content: 'INDEPENDENTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'INSPIRADO'
       },
       {
-        type: 'P,Red,A,No',
+        type: 'E',
         content: "INOFENSIVO"
       },
       {
-        type: 'P,Red,A,No',
+        type: 'C',
         content: "IDEALISTA"
       }
     ]
@@ -268,42 +270,42 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Brown,C',
+        type: 'D',
         content: 'DECIDIDO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'DEMONSTRATIVO'
       },
       {
-        type: 'S,Brown,C,No',
+        type: 'E',
         content: "IRÔNICO"
       },
       {
-        type: 'S,Brown,C,No',
+        type: 'C',
         content: "PROFUNDO"
       }
     ]
   },
   // question #13
   {
-    question: 'I rely on logic rather than intuition when making a decision.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'T,Green,C',
+        type: 'D',
         content: 'ATIVO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'DESEMBARAÇADO'
       },
       {
-        type: 'T,Green,C,No',
+        type: 'E',
         content: "MEDIADOR"
       },
       {
-        type: 'T,Green,C,No',
+        type: 'C',
         content: "MUSICAL"
       }
     ]
@@ -314,19 +316,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'F,Blue,B',
+        type: 'D',
         content: 'FIRME'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'CONVERSADOR'
       },
       {
-        type: 'F,Blue,B,No',
+        type: 'E',
         content: "TOLERANTE"
       },
       {
-        type: 'F,Blue,B,No',
+        type: 'C',
         content: "PENSATIVO"
       }
     ]
@@ -339,19 +341,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Brown,D',
+        type: 'D',
         content: 'LIDER'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'VIVO'
       },
       {
-        type: 'S,Brown,D,No',
+        type: 'E',
         content: "OUVINTE"
       },
       {
-        type: 'S,Brown,D,No',
+        type: 'C',
         content: "LEAL"
       }
     ]
@@ -359,23 +361,23 @@ var quizQuestions = [
   // question #16
 
   {
-    question: 'I sometimes move onto another task before completing my current one.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Red,A',
+        type: 'D',
         content: 'CHEFE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ATRAENTE'
       },
       {
-        type: 'P,Red,A,No',
+        type: 'E',
         content: "CONTENTE"
       },
       {
-        type: 'P,Red,A,No',
+        type: 'C',
         content: "DETALHISTA"
       }
     ]
@@ -384,23 +386,23 @@ var quizQuestions = [
   //			
 
   {
-    question: 'I prefer a flexible and spontaneous way of life.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Red,A',
+        type: 'D',
         content: 'PRODUTIVO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'POPULAR'
       },
       {
-        type: 'P,Red,A,No',
+        type: 'E',
         content: "AGRADÁVEL"
       },
       {
-        type: 'P,Red,A,No',
+        type: 'C',
         content: "PERFECCIONISTA"
       }
     ]
@@ -408,115 +410,115 @@ var quizQuestions = [
   // question #18
 
   {
-    question: 'I like to keep my options open when making decisions.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'P,Green,D',
+        type: 'D',
         content: 'VALENTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'VIVAZ'
       },
       {
-        type: 'P,Green,D,No',
+        type: 'E',
         content: "EQUILIBRADO"
       },
       {
-        type: 'P,Green,D,No',
+        type: 'C',
         content: "COMPORTADO"
       }
     ]
   },
   // question #19
   {
-    question: 'I feel comfortable in crowds.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Blue,B',
+        type: 'D',
         content: 'AUTORITÁRIO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'METIDO'
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'E',
         content: "TRANQUILO"
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'C',
         content: "ACANHADO"
       }
     ]
   },
   // question #20
   {
-    question: 'I like to share my feelings with others.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'E,Blue,B',
+        type: 'D',
         content: 'INSENSÍVEL'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'INDISCIPLINADO'
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'E',
         content: "DESINTERESSADO"
       },
       {
-        type: 'E,Blue,B,No',
+        type: 'C',
         content: "RANCOROSO"
       }
     ]
   },
   // question #21
   {
-    question: 'I prefer to work/do right away rather than spend time making a plan.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Brown,A',
+        type: 'D',
         content: 'INFLEXÍVEL'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'REPETITIVO'
       },
       {
-        type: 'S,Brown,A,No',
+        type: 'E',
         content: "RELUTANTE"
       },
       {
-        type: 'S,Brown,A,No',
+        type: 'C',
         content: "RESSENTIDO"
       }
     ]
   },
   // question #22
   {
-    question: 'I know my priorities.',
+    question: '',
     answers: [
       {
         // briggs, color, letter
-        type: 'S,Brown,A',
+        type: 'D',
         content: 'MANDÃO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ESQUECIDO'
       },
       {
-        type: 'S,Brown,A,No',
+        type: 'E',
         content: "MEDROSO"
       },
       {
-        type: 'S,Brown,A,No',
+        type: 'C',
         content: "COMPLICADO"
       }
     ]
@@ -529,19 +531,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'IMPACIENTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'INOPORTUNO'
       },
       {
-        type: '',
+        type: 'E',
         content: "INDECISO"
       },
       {
-        type: '',
+        type: 'C',
         content: "INSEGURO"
       }
     ]
@@ -552,19 +554,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'FRIO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'IMPREVISÍVEL'
       },
       {
-        type: '',
+        type: 'E',
         content: "DESLIGADO"
       },
       {
-        type: '',
+        type: 'C',
         content: "IMPOPULAR"
       }
     ]
@@ -575,19 +577,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'CABEÇA DURA'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'CASUAL'
       },
       {
-        type: '',
+        type: 'E',
         content: "EXITANTE"
       },
       {
-        type: '',
+        type: 'C',
         content: "INSATISFEITO"
       }
     ]
@@ -598,19 +600,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'ORGULHOSO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'PERMISSIVO'
       },
       {
-        type: '',
+        type: 'E',
         content: "SIMPLES"
       },
       {
-        type: '',
+        type: 'C',
         content: "CAUTELOSO"
       }
     ]
@@ -621,19 +623,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'DISCUTIDOR'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ESQUENTADO'
       },
       {
-        type: '',
+        type: 'E',
         content: "INCERTO"
       },
       {
-        type: '',
+        type: 'C',
         content: "ALIENADO"
       }
     ]
@@ -644,19 +646,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'OUSADO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'INGÊNUO'
       },
       {
-        type: '',
+        type: 'E',
         content: "INDIFERENTE"
       },
       {
-        type: '',
+        type: 'C',
         content: "NEGATIVO"
       }
     ]
@@ -667,19 +669,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'TRABALHADOR'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'EGOÍSTA'
       },
       {
-        type: '',
+        type: 'E',
         content: "PREOCUPADO"
       },
       {
-        type: '',
+        type: 'C',
         content: "RETRAIDO"
       }
     ]
@@ -690,19 +692,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'INDELICADO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'TAGARELA'
       },
       {
-        type: '',
+        type: 'E',
         content: "TÍMIDO"
       },
       {
-        type: '',
+        type: 'C',
         content: "SENSÍVEL DEMAIS"
       }
     ]
@@ -714,19 +716,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'MANDÃO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'DESORGANIZADO'
       },
       {
-        type: '',
+        type: 'E',
         content: "CONFUSO"
       },
       {
-        type: '',
+        type: 'C',
         content: "DEPRIMIDO"
       }
     ]
@@ -737,19 +739,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'INTOLERANTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'INCOSTANTE'
       },
       {
-        type: '',
+        type: 'E',
         content: "APÁTICO"
       },
       {
-        type: '',
+        type: 'C',
         content: "INTROVERTIDO"
       }
     ]
@@ -760,19 +762,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'MANIPULADOR'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'DESORDENADO'
       },
       {
-        type: '',
+        type: 'E',
         content: "RESMUNGÃO"
       },
       {
-        type: '',
+        type: 'C',
         content: "TRISTE"
       }
     ]
@@ -784,19 +786,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'OBSTINADO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'CONVENCIDO'
       },
       {
-        type: '',
+        type: 'E',
         content: "LENTO"
       },
       {
-        type: '',
+        type: 'C',
         content: "CÉTICO(NÃO ACREDITAR)"
       }
     ]
@@ -807,19 +809,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'TIRÂNICO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'BARULHENTO'
       },
       {
-        type: '',
+        type: 'E',
         content: "PREGUIÇOSO"
       },
       {
-        type: '',
+        type: 'C',
         content: "SOLITÁRIO"
       }
     ]
@@ -830,19 +832,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'IRRITÁVEL'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'DISTRAÍDO'
       },
       {
-        type: '',
+        type: 'E',
         content: "VAGAROSO"
       },
       {
-        type: '',
+        type: 'C',
         content: "DESCONFIADO"
       }
     ]
@@ -854,19 +856,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'IMPRUDENTE'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'AGITADO'
       },
       {
-        type: '',
+        type: 'E',
         content: "RELUTANTE"
       },
       {
-        type: '',
+        type: 'C',
         content: "VINGATIVO"
       }
     ]
@@ -877,19 +879,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'ASTUTO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'INSTÁVEL'
       },
       {
-        type: '',
+        type: 'E',
         content: "ACOMODADO"
       },
       {
-        type: '',
+        type: 'C',
         content: "CRÍTICO"
       }
     ]
@@ -900,19 +902,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'AVENTUREIRO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'ANIMADO'
       },
       {
-        type: '',
+        type: 'E',
         content: "ADAPTÁVEL"
       },
       {
-        type: '',
+        type: 'C',
         content: "ANALÍTICO"
       }
     ]
@@ -923,19 +925,19 @@ var quizQuestions = [
     answers: [
       {
         // briggs, color, letter
-        type: '',
+        type: 'D',
         content: 'PERSUASIVO'
       },
       {
-        type: ' ',
+        type: 'I',
         content: 'BRINCALHÃO'
       },
       {
-        type: '',
+        type: 'E',
         content: "SERENO"
       },
       {
-        type: '',
+        type: 'C',
         content: "PERSISTENTE"
       }
     ]
