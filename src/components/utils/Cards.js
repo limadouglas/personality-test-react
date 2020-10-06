@@ -5,20 +5,35 @@ import { media } from './_media-queries'
 export const IntroCard = styled.div.attrs({
   className: 'card'
 })`
-  position: absolute;
-  height: 60%;
-  width: 80%;
-  top: 20%;
-  left: 0;
-  right: 0;
+  position: relative;
   margin: auto;
+  margin-top: 30px;
   box-shadow: 0px -6px 8px 0px rgba(0, 0, 0, 0.1), 0px 6px 8px 0px rgba(0, 0, 0, 0.1),
     6px 0px 8px 0px rgba(0, 0, 0, 0.1), -6px 0px 8px 0px rgba(0, 0, 0, 0.1);
   background: ${colors.$colorCardBg};
-  background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), transparent 1px, rgba(0, 0, 0, 0.3) 2px);
   background-size: 3px 3px;
   ${media.tablet`width: 90%;`};
   ${media.laptop`width: 60%;`};
+  padding:20px;
+  #title-tips{
+    font-size:1rem;
+    text-align:center;
+  }
+  ul{
+    font-family: ${fonts.$latoFont};
+    margin-top: 15px;
+    color:#000;
+    text-align:left;
+    font-size:0.8rem;
+    list-style: none;
+    padding:0;
+    padding-left: 10px;
+    padding-right: 10px;
+    li{
+      margin-top: 7px;
+    }
+  }
+
   .corner {
     backface-visibility: hidden;
     border-right: 2px solid #d4cd96;
@@ -56,7 +71,6 @@ export const QuestionCard = styled.div.attrs({
   margin: 0 auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
   background: ${colors.$colorCardBg};
-  background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), transparent 1px, rgba(0, 0, 0, 0.3) 2px);
   background-size: 3px 3px;
   color: #fff;
   ${media.tablet`width: 90%;`};

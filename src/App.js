@@ -17,7 +17,7 @@ class App extends Component {
   }
 
   renderQuestion() {
-    return <Question />
+    return <Question question={`Selecione o adjetivo que melhor descreve você!\n(escolha o que mais se encaixa)`} />
   }
 
   render() {

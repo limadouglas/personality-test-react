@@ -4,9 +4,13 @@ import styled from 'styled-components'
 import { fonts, colors } from '../utils/_var'
 
 const Wrapper = styled.div`
+  width:100%;
   li {
+    width:100%;
     list-style-type: none;
+    text-align:left;
     input {
+      text-align:left;
       position: absolute;
       opacity: 0;
       z-index: -1;
@@ -21,16 +25,19 @@ const Wrapper = styled.div`
         top: 0;
         width: 100%;
         height: 100%;
-        background: ${colors.$colorGold};
+        background: ${colors.$primary};
       }
     }
     label {
+      text-align:center;
       position: relative;
+      width:90%;
       padding-left: 3rem;
       line-height: 2.3rem;
       cursor: pointer;
       font-family: ${fonts.$mainFont};
       color: ${colors.$colorGold};
+      font-size:0.8rem;
       &::before {
         content: '';
         position: absolute;

@@ -1,16 +1,19 @@
 import styled from 'styled-components'
 import { media } from './_media-queries'
 
+import { colors } from './_var'
+
 const StartBtn = styled.div`
   display: block;
-  width: 12em;
+  width: 80%;
   height: 3.5em;
-  color: #fff;
+  background: ${colors.$primary};
   position: relative;
   line-height: 3.5em;
   left: 0;
   right: 0;
   margin: auto;
+  margin-top: 20px;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);

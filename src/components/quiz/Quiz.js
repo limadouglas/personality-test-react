@@ -42,9 +42,9 @@ const Quiz = props => {
   return (
     <Wrapper key={props.questionId}>
       <QuestionCount counter={props.questionId} total={props.questionTotal} />
-      <div className="w-100" />
+
       <Question content={props.question} />
-      <div className="w-100" />
+
       <div className="row">
         <ul>{props.answerOptions.map(renderAnswerOptions)}</ul>
       </div>

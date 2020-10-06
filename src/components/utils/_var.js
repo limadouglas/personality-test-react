@@ -5,9 +5,10 @@ const fonts = {
 }
 
 const colors = {
-  $colorBg: '#333',
-  $colorCardBg: '#302f34',
-  $colorGold: '#d4cd96'
+  $colorBg: '#fff',
+  $colorCardBg: '#fff',
+  $colorGold: '#000',
+  $primary: '#01405B'
 }
 
 export { fonts, colors }

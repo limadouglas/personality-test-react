@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { colors } from '../components/utils/_var'
+import { fonts, colors } from '../components/utils/_var'
 import Quiz from '../components/quiz/Quiz'
 import Results from '../components/result/Results'
 import quizQuestions from '../api/quizQuestions'
 import { QuestionCard } from '../components/utils/Cards'
+import { media } from '../components/utils/_media-queries'
+import logo from '../assets/logo.png'
 
 const Wrapper = styled.div`
   position: fixed;
@@ -13,7 +15,38 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: ${colors.$colorBg};
+  background-image: linear-gradient(to bottom, #01405B 50%, white 50%);
+  h1 {
+    position: relative;
+    font-family: ${fonts.$titleFont};
+    font-size: 1.1em;
+    color: ${colors.$colorGold};
+    text-align: center; 
+    ${media.tablet`font-size: 1.5em; letter-spacing: 1.5px;`};
+    ${media.laptop`font-size: 2em; letter-spacing: 2px;`};
+  }
+  div {
+    font-family: ${fonts.$titleFont};
+    h1 {
+      font-size: 1.8em;
+      color:#fff;
+      margin-bottom:50px;
+    }
+    span{
+      font-size: 1em;
+      color; #fff;
+    }
+  }
+  div{
+    text-align:center;
+    img {
+      position: absolute;
+      bottom: 0;
+      max-width: 7.5rem;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 `
 
 class Question extends Component {
@@ -179,7 +212,7 @@ class Question extends Component {
         answer={this.state.answer}
         answerOptions={this.state.answerOptions}
         questionId={this.state.questionId}
-        question={this.state.question}
+        question={this.props.question}
         questionTotal={quizQuestions.length}
         onAnswerSelected={this.handleAnswerSelected}
       />
@@ -209,6 +242,9 @@ class Question extends Component {
     }
     return (
       <Wrapper className="container">
+        <div id="title">
+          <h1>Teste comportamental</h1>
+        </div>
         <QuestionCard>
           <div className="corner" />
           <div className="corner" />
@@ -216,6 +252,9 @@ class Question extends Component {
           <div className="corner" />
           {this.renderQuiz()}
         </QuestionCard>
+        <div>
+          <img src={logo}/>
+        </div>
       </Wrapper>
     )
   }
